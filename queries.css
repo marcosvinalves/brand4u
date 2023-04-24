@@ -1,0 +1,19 @@
+@media (min-width: 61.9375em) {
+    .offnav {
+        display: none;
+    }
+}
+
+@media (max-width: 61.9375em) {
+    .normalnav {
+        display: none;
+    }
+
+    .main-discount-container {
+        display: none;
+    }
+
+    .discount-link-container {
+        display: none;
+    }
+}
