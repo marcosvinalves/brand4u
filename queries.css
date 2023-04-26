@@ -1,8 +1,12 @@
+/* ABOVE 992PX SCREEN */
+
 @media (min-width: 61.9375em) {
     .offnav {
         display: none;
     }
 }
+
+/* BELOW 992PX SCREEN */
 
 @media (max-width: 61.9375em) {
     .normalnav {
@@ -15,5 +19,33 @@
 
     .discount-link-container {
         display: none;
+    }
+}
+
+/* BELOW 768PX SCREEN */
+
+@media (max-width: 48em) {
+    .carousel-caption {
+        display: block!important;
+    }
+
+    .carousel-text {
+        font-size: 24px;
+    }
+
+    .carousel-link {
+        font-size: 14px;
+    }
+}
+
+/* BELOW 500PX SCREEN */
+
+@media (max-width: 31.25em) {
+    .carousel-text {
+        font-size: 16px;
+    }
+
+    .carousel-link {
+        font-size: 12px;
     }
 }
