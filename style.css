@@ -90,11 +90,13 @@
 
 section {
     margin-bottom: 9.6rem;
+    padding: 1.6rem;
 }
 
 .heading {
     font-size: 2.4rem;
     font-weight: bold;
+    margin-bottom: 2.4rem;
     text-transform: uppercase;
 }
 /* NAV SECTION */
@@ -230,7 +232,6 @@ section {
 
 .off-form {
     width: 100%;
-    margin-top: ;
 }
 
 .off-menu {
@@ -321,4 +322,45 @@ section {
 .card-text > span {
     text-decoration: line-through;
     color: #383838;
+}
+
+/* QUEM SOMOS SECTION */
+
+.who-text {
+    line-height: 1.6;
+}
+
+.who-img {
+    border-radius: 30px;
+}
+
+/* NOSSO TIME SECTION */
+
+.team-col {
+    display: flex;
+    justify-content: center;
+}
+
+.team-img {
+    border-radius: 100%;
+}
+
+.team-cards {
+    width: 65%;
+}
+
+.team-cards:hover {
+    border: none;
+}
+
+.team-card {
+    text-align: center;
+}
+
+.team-text {
+    color: #6e6e6e;
+}
+
+.socials > ion-icon {
+    font-size: 30px;
 }
