@@ -235,6 +235,29 @@
     margin-top: 30px;
 }
 
+.bg-img-1 {
+    background-image: url(img/purple-jordan-1920-x-1080-s1q8xj3a9vt8lb50.jpg);
+}
+
+.bg-img-2 {
+    background-image: url(img/pexels-shyam-mishra-9546375.jpg);
+}
+
+.bg-img-3 {
+    background-image: url(img/photo-1559479083-f3b234ad0d53.avif);
+}
+
+.bg-img-4 {
+    background-image: url(img/photo-1559479083-f3b234ad0d53\ \(1\).avif);
+}
+
+.carousel-img {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .carousel-caption {
     text-shadow: 5px 2px 3px black;
     text-align: start;
