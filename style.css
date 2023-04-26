@@ -86,9 +86,17 @@
     --bs-gradient: none;
 }
 
+/* GENERAL */
 
+section {
+    margin-bottom: 9.6rem;
+}
 
-
+.heading {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 /* NAV SECTION */
 
 .discount-container {
@@ -281,4 +289,36 @@
     min-width: 25%;
     display: flex;
     gap: 100px;
+}
+
+/* DESTAQUES SECTION */
+
+.card {
+    border: none;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border: 1px solid black;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.card-brand {
+    text-transform: capitalize;
+    font-style: italic;
+    color: #383838;
+}
+
+.card-text {
+    font-size: 14px;
+    color: rgb(138, 43, 226);
+}
+
+.card-text > span {
+    text-decoration: line-through;
+    color: #383838;
 }
